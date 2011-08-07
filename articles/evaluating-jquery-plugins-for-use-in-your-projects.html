@@ -1,0 +1,125 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Ralph Whitbeck - Articles - Evaluating jQuery Plugins for Use in your Projects</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<link rel="openid.server" href="http://www.myopenid.com/server">
+	<link rel="openid.delegate" href="http://ralphwhitbeck.myopenid.com/">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="../css/style.css?v=2">
+  <script src="../js/libs/modernizr-2.0.6.min.custom.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+			<nav>
+				<ul>
+					<li><a href="../">Home</a></li>
+					<li><a href="../about/">About</a></li>
+					<li><a href="../articles/">Articles</a></li>
+					<li><a href="../speaking/">Speaking</a></li>
+					<li><a href="../contact/">Contact</a></li>
+				</ul>
+			</nav>
+			<h1>Ralph Whitbeck</h1>
+    </header>
+    <div id="main" role="main">
+			<div id="left-column">
+				<h2>Evaluating jQuery Plugins for Use in your Projects</h2>
+				<div id="article-date">July 8, 2011</div>
+				<p>I just found, what looks like an awesome HTML5 Uploader jQuery Plugin in my Twitter feed and my first thought was, “Wow, this would make a great addition to the project that I am currently working on.”  Unfortunately, once I started to evaluate the plugin it failed miserably in all aspects of my evaluation criteria.  So much so, I feel it is a great example of how NOT to release a jQuery plugin.</p>
+
+				<p>Here is the criteria I use to evaluate a jQuery plugin before I consider using it in my project:</p>
+				<ol>
+					<li><strong>Good documentation and demos</strong> - If I can’t figure out how to use your plugin and/or see what it’s capable of fairly quickly I don’t really want to waste my time on trying to figure that out.  The plugin author should be providing at the very least easy examples on what the plugin does.</li>
+					<li><strong>Easily downloadable</strong> - Seems like a silly requirement but if I can’t easily download the code because of a silly wall in place like having to tweet to be able to get to the code base then that’ll weigh heavily in my determining to use the plugin or not.</li>
+					<li><strong>License released under</strong> - I should also be able to find what license the plugin is released under.  Ideally it should be listed on the plugin site but if not in the header of the JavaScript file. If a jQuery plugin does not have a license specified I will not consider it.</li>
+					<li><strong>Source code available</strong> - Most jQuery plugins are released with an open source license, with those projects the code should be available to evaluate.  I should be able to see the full source code, if you are only providing a minimized version then I am unable to evaluate very easily to understand how the code is architected.</li>
+				</ol>
+				<p>These are just simple things every plugin author should be doing.  Unfortunately, HTML5 Uploader jQuery Plugin failed on 3 out of 4 items listed above.  I contacted the owners of the plugin to voice my displeasure and was sent a reply with a code beautifier link to be able to read the minified code that one got after having to “Pay with a Tweet” to download the code which has no license attributed with it.  I replied back with “thanks, but no thanks” and will find something else until they fix those issues above.</p>
+
+				<p>In addition to the items above, I consider the following to be a huge plus when evaluating a jQuery Plugin:</p>
+				<ol>
+					<li><strong>Source Code available on Github</strong> - This is a huge plus I can easily fork, watch or submit issues to the code base.  Github also provides the easiest way to view commits and see if the code has been idle or not.</li>
+					<li><strong>MIT and GPLv2 Licensed</strong> - I find plugins licensed the same as the jQuery code base to be ideal.</li>
+					<li><strong>Unit tests</strong> - It shows that the code is thoroughly tested each release and I can rest assured that the code is of quality.</li>
+					<li><strong>Issue Tracker</strong> - If it is on Github I can see if the issue tracker is in use and if issues are being addressed as they come up.  This allows me to help the project if I come across any problems.</li>
+				</ol>
+				<p>What are some criteria you use when evaluating jQuery Plugins or JavaScript code in general?</p>
+				
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				    var disqus_shortname = 'ralphwhitbeck'; // required: replace example with your forum shortname
+
+				    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+				    var disqus_identifier = 'evaluating-jquery-plugins-for-use-in-your-projects';
+				    // var disqus_url = 'http://example.com/permalink-to-page.html';
+
+				    /* * * DON'T EDIT BELOW THIS LINE * * */
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+			<div id="right-column">
+				<div class="links">
+					<h3>Links</h3>
+					<ul>
+						<li><a href="http://podcast.jquery.com">The Official jQuery Podcast</a></li>
+					</ul>
+				</div>
+			</div>
+    </div>
+    <footer>
+			&copy;<span id="copyright-year"></span> Ralph Whitbeck
+    </footer>
+  </div> <!-- eo #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='../js/libs/jquery-1.6.2.min.js'>\x3C/script>")</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="../js/plugins.js"></script>
+  <script src="../js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="../js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+  <![endif]-->
+
+
+
+  <script>
+    var _gaq=[["_setAccount","UA-67792-4"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+
+</body>
+</html>

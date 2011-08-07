@@ -1,3 +1,9 @@
+(function($) {
+$.fn.equalHeight = function() { var max_bottom = 0; this.each(function() { var bottom = $(this).offset().top + $(this).outerHeight(); if (bottom > max_bottom) max_bottom = bottom; }); return this.each(function() { var offtop = $(this).offset().top, curheight = $(this).outerHeight(), diff = curheight - $(this).height(), bottom = offtop + curheight; if (max_bottom > bottom) $(this).height(max_bottom - offtop - diff); }); };
+
+})(jQuery);
+
+
 window.log = function(){
   log.history = log.history || [];
   log.history.push(arguments);
