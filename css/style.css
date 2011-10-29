@@ -2,6 +2,13 @@
 body {
 	background-color: #dddddd;
 }
+
+blockquote {
+	margin-left: 30px;
+	border-left: 2px solid #0000ff;
+	padding-left: 5px;
+}
+
 #container {
 	margin: auto;
 	width: 960px;
@@ -75,10 +82,40 @@ header h1 {
 	float: left;
 	min-height: 400px;
 }
+#left-column h2 {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+#article-date {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+#left-column p {
+	margin-bottom: 16px;
+	font-size: 16px;
+	line-height: 22px;
+}
+#left-column ul {
+	margin-bottom: 16px;
+}
+#left-column li {
+	font-size: 16px;
+	line-height: 20px;
+}
+#left-column img {
+	margin-right: 7px;
+}
+#left-column #disqus_thread {
+	margin-top: 30px;
+}
 #right-column {
 	width: 180px;
 	padding: 20px 10px;
 	float: left;
+}
+.links {
+	margin-bottom: 20px;
 }
 .links h3 {
 	color: #666666;
@@ -116,4 +153,8 @@ footer {
 	clear: both;
 	position: absolute;
 	font-size: 10px;
+}
+
+.clear {
+	clear: both;
 }
